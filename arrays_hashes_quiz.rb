@@ -30,7 +30,7 @@ puts lines.index("Edinburgh Park")
 puts lines.delete("Edinburgh Park")
 puts lines
 # 8. Delete 'Edinburgh Park' from the array by index
-
+lines.delete(2)
 # 9. Reverse the positions of the stops in the array
 
 ### B. Given the following data structure:
