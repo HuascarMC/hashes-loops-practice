@@ -104,3 +104,12 @@ puts users["Erik"][:home_town]
 users["Erik"][:pets]["Fluffy"] = :dog
 puts users["Erik"][:pets]
 # 9. Add yourself to the users hash
+users["Huascar"] = {
+  :twitter => "none",
+  :favourite_numbers => [7, 19, 5, 2015],
+  :home_town => "Santo Domingo",
+  :pets => {
+    "cooper" => :platonic_dog
+  }
+}
+puts users["Huascar"]
