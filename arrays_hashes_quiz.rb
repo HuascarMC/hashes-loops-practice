@@ -26,7 +26,9 @@ lines.unshift("Airport")
 # 6. Add 'York Place' to the end of the array
 lines.push("York Place")
 # 7. Remove 'Edinburgh Park' from the array using it's name
-
+puts lines.index("Edinburgh Park")
+puts lines.delete("Edinburgh Park")
+puts lines
 # 8. Delete 'Edinburgh Park' from the array by index
 
 # 9. Reverse the positions of the stops in the array
