@@ -13,7 +13,7 @@ puts lines.count
 puts lines.length
 puts stops_number
 # 2. Return 'Edinburgh Park' from the array
-
+puts lines[1]
 # 3. How many ways can we return 'Princes Street' from the array?
 
 # 4. Work out the index position of 'Haymarket'
