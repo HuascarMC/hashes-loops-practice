@@ -24,7 +24,7 @@ puts lines.index("Haymarket")
 # 5. Add 'Airport' to the start of the array
 lines.unshift("Airport")
 # 6. Add 'York Place' to the end of the array
-
+lines.push("York Place")
 # 7. Remove 'Edinburgh Park' from the array using it's name
 
 # 8. Delete 'Edinburgh Park' from the array by index
