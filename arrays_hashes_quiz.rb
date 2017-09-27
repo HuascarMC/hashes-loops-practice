@@ -19,7 +19,8 @@ puts lines[4]
 puts lines.pop
 puts "This stop is #{lines[4]}"
 # 4. Work out the index position of 'Haymarket'
-
+puts "3"
+puts lines.index("Haymarket")
 # 5. Add 'Airport' to the start of the array
 
 # 6. Add 'York Place' to the end of the array
