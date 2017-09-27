@@ -32,7 +32,8 @@ puts lines
 # 8. Delete 'Edinburgh Park' from the array by index
 lines.delete(2)
 # 9. Reverse the positions of the stops in the array
-
+lines.reverse!
+puts lines
 ### B. Given the following data structure:
 
 my_hash = {"0" => "Zero", 1 => "One", :two => "Two", "two" => 2}
